@@ -172,9 +172,9 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\Api\FileManagerApiController.cs" />
-    <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\CompaniesController.cs" />
     <Compile Include="Controllers\FileManagerController.cs" />
+    <Compile Include="Controllers\FormController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProfileController.cs" />
     <Compile Include="Global.asax.cs">
@@ -247,6 +247,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\FileManager\" />
+    <Folder Include="Views\Form\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
