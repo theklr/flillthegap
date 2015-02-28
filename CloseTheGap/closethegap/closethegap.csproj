@@ -247,9 +247,11 @@
     <Content Include="Views\FileManager\ImageUpload.cshtml" />
     <Content Include="Views\FileManager\ImageGrid.cshtml" />
     <Content Include="Views\Profile\Create.cshtml" />
+    <Content Include="Views\Shared\_Search.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\FileManager\" />
     <Folder Include="Views\Form\" />
   </ItemGroup>
   <ItemGroup>

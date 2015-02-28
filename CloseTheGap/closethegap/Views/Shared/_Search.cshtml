@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "_Search";
+}
+
+<div class="col-sm-12">
+
+    <div class="form-group row col-sm-6 ">
+        <label for="">Search:</label>
+        <input type="text" class="form-control" placeholder="search"
+               ng-model=""
+               data-ng-options="">
+        @*<option value="">--Select One--</option>*@
+
+    </div>
+
+    <div class="row col-sm-3">
+
+        <input type="button" class="btn btn-default" value="Search" id="cmdSearch" name="Search">  @*data-ng-click="..."*@
+
+        <input type="button" class="btn btn-default" value="Cancel">   @*data-ng-click=".....(null)"*@
+    </div>
+
+</div>
+
