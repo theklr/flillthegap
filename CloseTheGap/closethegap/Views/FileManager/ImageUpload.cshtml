@@ -1,21 +1,21 @@
 ﻿@{
-    ViewBag.Title = "ImageUpload";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <section class="main-container">
     <div class="container">
 
-        <div class="main col-md-12">
+        <div class="main col-sm-12">
             <div class="row">
 
                 <!-- main start -->
                 <!-- ================ -->
 
                 <h1 class="text-center title">Image Upload Center</h1>
-                <div class="col-md-4">
-                    <img src="http://www.milescollins.com/images/barack.jpg" id="imagePreview" alt="http://www.milescollins.com/images/barack.jpg">
+                <div class="col-sm-4">
+                    <img class="col-xs-12" src="http://www.milescollins.com/images/barack.jpg" id="imagePreview" alt="http://www.milescollins.com/images/barack.jpg">
                 </div>
-                <div class="col-md-8">
+                <div class="col-sm-8">
                     <form id="imageUploadForm" role="form" name="image" method="post" action="api/files">
                         <div class="form-group">
                             <br />
