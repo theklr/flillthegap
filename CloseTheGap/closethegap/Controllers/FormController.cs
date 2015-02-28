@@ -6,13 +6,12 @@ using System.Web.Mvc;
 
 namespace closethegap.Controllers
 {
-    [RoutePrefix ("companies")]
-
-    public class CompaniesController : Controller
+    public class FormController : Controller
     {
-        [Route ("profile")]
-        public ActionResult Profile()
+        // GET: Form
+        public ActionResult Index()
         {
+            // TODO: Create Partials
             return View();
         }
     }
