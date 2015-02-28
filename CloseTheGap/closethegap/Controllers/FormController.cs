@@ -9,10 +9,10 @@ namespace closethegap.Controllers
     public class FormController : Controller
     {
         // GET: Form
-        public ActionResult Index()
+        public ActionResult Search()
         {
             // TODO: Create Partials
-            return View();
+            return PartialView("_Search");
         }
     }
 }

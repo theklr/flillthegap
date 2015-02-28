@@ -15,5 +15,12 @@ namespace closethegap.Controllers
         {
             return View();
         }
+
+        [Route("create")]
+        public ActionResult Create()
+        {
+
+            return View();
+        }
     }
 }
