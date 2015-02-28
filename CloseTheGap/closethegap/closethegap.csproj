@@ -176,6 +176,7 @@
     <Compile Include="Controllers\FileManagerController.cs" />
     <Compile Include="Controllers\FormController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ProfileController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -243,6 +244,9 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Companies\Profile.cshtml" />
+    <Content Include="Views\FileManager\ImageUpload.cshtml" />
+    <Content Include="Views\FileManager\ImageGrid.cshtml" />
+    <Content Include="Views\Profile\Create.cshtml" />
     <Content Include="Views\Shared\_Search.cshtml" />
   </ItemGroup>
   <ItemGroup>
