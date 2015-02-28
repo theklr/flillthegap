@@ -12,7 +12,7 @@ namespace closethegap.Controllers
     {
         
         [Route("images")]
-        public ActionResult Images()
+        public ActionResult ImageGrid()
         {
             return View();
         }

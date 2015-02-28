@@ -8,10 +8,13 @@ namespace closethegap.Controllers
 {
     public class ProfileController : Controller
     {
-        // GET: Profile
-        public ActionResult Index()
+        // GET: UserProfiles
+       
+
+        public ActionResult Create()
         {
             return View();
         }
     }
+ 
 }
