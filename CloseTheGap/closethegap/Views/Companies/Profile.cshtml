@@ -1,7 +1,108 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Profile";
 }
+<head>
 
-<h2>Profile</h2>
 
+    <title>Company Profile: IBM</title>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation" class="active"><a href="#">Home</a></li>
+                    <li role="presentation"><a href="#">About</a></li>
+                    <li role="presentation"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <h3 class="text-muted">Company Profile: IBM</h3>
+        </div>
+
+        <div class="jumbotron">
+            <h1>Jumbotron heading</h1>
+            <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+        </div>
+
+        <div class="row marketing">
+            <div class="col-lg-6">
+                <h4>Company Mission Statement</h4>
+                <p>
+                    The mission, vision, and values of the IBM corporation has been the same since the company was incorporated
+                    in 1911. In 2003, more than 319,000 global IBM employees (IBMers) participated in a 72-hour “Values Jam,” which
+                    redefined the values which guide IBM in the development and delivery of its technology and business
+                    products and services. The Values that were designed from the consensus of the IBMers are:
+                </p>
+                <ul> 
+                    <li>"Dedication to every client's success</li>
+                    <li>  Innovation that matters, for our company and for the world</li>
+                    <li>Trust and personal responsibility in all relationships"</li>
+                </ul>
+
+                @*<!--circle graphs source: http ://lugolabs.com/circles-->
+                <!--circle 1-->
+                <div class="circles-wrp" style="position: relative; display: inline-block;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+                        <path fill="transparent" stroke="#D3B6C6" stroke-width="7" d="M 39.992565928065126 3.500000757060633 A 36.5 36.5 0 1 1 39.949302232260386 3.500035209108127 Z"></path>
+                        <path fill="transparent" stroke="#4B253A" stroke-width="7" d="M 39.992565928065126 3.500000757060633 A 36.5 36.5 0 0 1 59.07174573163989 71.12103010421852 "></path>
+                    </svg>
+                    <div class="circles-text" style="position: absolute; top: 0px; left: 0px; text-align: center; width: 100%; font-size: 28px; height: 80px; line-height: 80px;">
+                        <span class="circles-integer">41</span>.
+                        <span class="circles-decimals">26</span>
+                    </div>
+                </div>
+                <!--circle 2-->
+                <div class="circles-wrp" style="position: relative; display: inline-block;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+                        <path fill="transparent" stroke="#D3B6C6" stroke-width="7" d="M 39.992565928065126 3.500000757060633 A 36.5 36.5 0 1 1 39.949302232260386 3.500035209108127 Z"></path>
+                        <path fill="transparent" stroke="#4B253A" stroke-width="7" d="M 39.992565928065126 3.500000757060633 A 36.5 36.5 0 0 1 59.07174573163989 71.12103010421852 "></path>
+                    </svg>
+                    <div class="circles-text" style="position: absolute; top: 0px; left: 0px; text-align: center; width: 100%; font-size: 28px; height: 80px; line-height: 80px;">
+                        <span class="circles-integer">41</span>.
+                        <span class="circles-decimals">26</span>
+                    </div>
+                </div>
+                <!--circle 3-->
+                <div class="circles-wrp" style="position: relative; display: inline-block;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+                        <path fill="transparent" stroke="#D3B6C6" stroke-width="7" d="M 39.992565928065126 3.500000757060633 A 36.5 36.5 0 1 1 39.949302232260386 3.500035209108127 Z"></path>
+                        <path fill="transparent" stroke="#4B253A" stroke-width="7" d="M 39.992565928065126 3.500000757060633 A 36.5 36.5 0 0 1 59.07174573163989 71.12103010421852 "></path>
+                    </svg>
+                    <div class="circles-text" style="position: absolute; top: 0px; left: 0px; text-align: center; width: 100%; font-size: 28px; height: 80px; line-height: 80px;">
+                        <span class="circles-integer">41</span>.
+                        <span class="circles-decimals">26</span>
+                    </div>
+                </div>*@
+            </div>
+
+
+
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2>Leadership</h2>
+                    <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                    <h3>Ginni Rometty</h3>
+                    <h4>IBM, CEO</h4>
+
+                    <p>Virginia Marie "Ginni" Rometty (born July 29, 1957)[3][4] is an American business executive. She is the current Chairwoman and CEO of IBM, and the first woman to head the company.[5][6] Prior to becoming president and CEO in January 2012 she held the positions of Senior Vice President and Group Executive for Sales, Marketing, and Strategy at IBM. She has been named to Fortune magazine's "50 Most Powerful Women in Business" for eight consecutive years, ranking #1 for 2012,[7] and she was ranked tenth on Forbes magazine's "World's 100 Most Powerful Women" in 2014.[8] She was also named to the Time 100 in 2012,[9] and was included in the 50 Most Influential list of Bloomberg Markets magazine in September 2012.</p>
+                    <p><a class="btn btn-default" id="cmd" role="button">Visit Company Site »</a></p>
+                </div><!-- /.col-lg-4 -->
+
+            </div>
+
+        </div>
+
+        <footer class="footer">
+            <p>&copy; Company 2014</p>
+        </footer>
+
+    </div> <!-- /container -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
