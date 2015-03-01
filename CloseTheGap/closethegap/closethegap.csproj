@@ -176,9 +176,8 @@
     <Compile Include="Controllers\FileManagerController.cs" />
     <Compile Include="Controllers\FormController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ProfileController.cs" />
-    <Compile Include="Controllers\RegistrationController.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -249,11 +248,10 @@
     <Content Include="Views\FileManager\ImageGrid.cshtml" />
     <Content Include="Views\Profile\Create.cshtml" />
     <Content Include="Views\Shared\_Search.cshtml" />
-    <Content Include="Views\Form\Registration.cshtml" />
+    <Content Include="Views\Account\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\FileManager\" />
     <Folder Include="Views\Registration\" />
   </ItemGroup>
   <ItemGroup>

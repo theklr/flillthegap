@@ -7,14 +7,11 @@ using System.Web.Mvc;
 namespace closethegap.Controllers
 {
 
-        [RoutePrefix("user")]
-
-
-    public class RegistrationController : Controller
+    public class AccountController : Controller
     {
 
-        [Route("registration")]
-        public ActionResult Registration()
+        
+        public ActionResult Create()
         {
             return View();
         }
